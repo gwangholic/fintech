@@ -1,0 +1,13 @@
+API Key : thQtxr60R7nUL1JTJfWBIBLb0wc5UNqWf8t9D1AD
+API Secret : H98xrPZ1f2SfF2oR3x6DmFD0doc304ouft1wMcla
+
+http://localhost:3000/authResult
+
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIxMTAwNzYwNTIyIiwic2NvcGUiOlsiaW5xdWlyeSIsImxvZ2luIiwidHJhbnNmZXIiXSwiaXNzIjoiaHR0cHM6Ly93d3cub3BlbmJhbmtpbmcub3Iua3IiLCJleHAiOjE2MDI0NjkxODYsImp0aSI6IjlmMjhmMmJkLTU4NzMtNDkwNS1iZjNmLWU0MWVmMGUyNTRlNyJ9.WHEDc7EWpb4DhfJNWWXbJraEnnTV7TEFXvv6gRK92tQ",
+    "token_type": "Bearer",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIxMTAwNzYwNTIyIiwic2NvcGUiOlsiaW5xdWlyeSIsImxvZ2luIiwidHJhbnNmZXIiXSwiaXNzIjoiaHR0cHM6Ly93d3cub3BlbmJhbmtpbmcub3Iua3IiLCJleHAiOjE2MDMzMzMxODYsImp0aSI6IjQ1ZjlkYTZmLTVhYTAtNDE2MS04MjNlLWFmM2VjNzMxMWM2MyJ9.xvRq2FYkmpkbUvnf3L5t5libjZ0-lHNSTAEc1hXzjIU",
+    "expires_in": 7775999,
+    "scope": "inquiry login transfer",
+    "user_seq_no": "1100760522"
+}
