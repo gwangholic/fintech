@@ -1,23 +1,20 @@
-function aFunc(callback) {
-    setTimeout(function () {
-        console.log("a");
-    }, 1700);
-}
-function bFunc(callback) {
-    setTimeout(function () {
-        console.log("b");
-    }, 1000);
-}
-function cFunc(callback) {
-    setTimeout(function () {
-        console.log("c");
-    }, 500);
-}
-aFunc(function(){
-    bFunc(function(){
-        cFunc(function(){});
-    });
-}); // a
+var fs = require("fs");
 
-aFunc(bFunc(cFunc()));
-// c -> b -> a
+console.log("first func");
+var readData = "none";
+function callbackFunc(callback) {
+  fs.readFile("./example/test.txt", "utf8", function (err, result) {
+    if (err) {
+      console.error(err);
+      throw err;
+    } else {
+      readData = result;
+      callback(readData);
+    }
+  });
+}
+
+callbackFunc(function (data) {
+  console.log(data);
+  console.log("third");
+});

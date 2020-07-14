@@ -1,12 +1,12 @@
-var cars = ["BMW", "Volvo", "Saab", "Ford", "Flat", "Audi"];
+var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
 var text = "";
-
-for (let i = 0; i < cars.length; i++) {
-    text += cars[i];
+var i;
+for (i = 0; i < cars.length; i++) {
+  console.log(cars[i]);
+  text += cars[i];
 }
 
-console.log(text);
-
-cars.map((car) => {
-    console.log(car);
-})
+// cars.map((car) => {
+//   console.log(car);
+// });
+//es6

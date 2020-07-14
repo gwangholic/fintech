@@ -1,26 +1,20 @@
-var cars = [];
-var car01 = {
-    name: "sonata",
-    ph: "500ph",
-    start: function(){
-        console.log("engine is stating");
-    },
-    stop: function(){
-        console.log("engine is stoped");
-    }
-}
-var car02 = {
-    name: "BMW",
-    ph: "600ph",
-    start: function(){
-        console.log("engine is starting");
-    },
-    stop: function(){
-        console.log("engine is stoped");
-    }
-}
-cars[0] = car01;
-cars[1] = car02;
+var car1 = "Saab";
+var car2 = "Volvo";
+var car3 = "BMW";
 
-console.log(cars[1].start())
-console.log(cars[0].name)
+var cars = ["Saab", "Volvo", "BMW"];
+
+//in java
+// public int[] numList = new Array[5];
+// arrayList alist = new ArrayList();
+
+var array = [car1, car2, car3];
+
+console.log(cars);
+console.log(cars[0]);
+console.log(cars[1]);
+console.log(cars[2]);
+
+console.log(cars.length);
+
+console.log(array);

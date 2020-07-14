@@ -2,7 +2,7 @@ API Key : thQtxr60R7nUL1JTJfWBIBLb0wc5UNqWf8t9D1AD
 API Secret : H98xrPZ1f2SfF2oR3x6DmFD0doc304ouft1wMcla
 
 http://localhost:3000/authResult
-
+http://localhost:3000/authResult?code=soilygqJHwToeHmhvcyitfLNw2jeNb&scope=inquiry%20login%20transfer&state=12345678901234567890123456789012
 {
     "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIxMTAwNzYwNTIyIiwic2NvcGUiOlsiaW5xdWlyeSIsImxvZ2luIiwidHJhbnNmZXIiXSwiaXNzIjoiaHR0cHM6Ly93d3cub3BlbmJhbmtpbmcub3Iua3IiLCJleHAiOjE2MDI0NjkxODYsImp0aSI6IjlmMjhmMmJkLTU4NzMtNDkwNS1iZjNmLWU0MWVmMGUyNTRlNyJ9.WHEDc7EWpb4DhfJNWWXbJraEnnTV7TEFXvv6gRK92tQ",
     "token_type": "Bearer",
@@ -11,3 +11,7 @@ http://localhost:3000/authResult
     "scope": "inquiry login transfer",
     "user_seq_no": "1100760522"
 }
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIxMTAwNzYwNTIyIiwic2NvcGUiOlsiaW5xdWlyeSIsImxvZ2luIiwidHJhbnNmZXIiXSwiaXNzIjoiaHR0cHM6Ly93d3cub3BlbmJhbmtpbmcub3Iua3IiLCJleHAiOjE2MDI0ODA1OTUsImp0aSI6IjJhM2Q4OWFhLTVmZmUtNGRiOC04ZGRhLTljNDIwODY0MjkwMSJ9.sKWM8C2MHtCerACEyPwL4jZW7qrYcgs-KGYKkaUzFx4
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIxMTAwNzYwNTIyIiwic2NvcGUiOlsiaW5xdWlyeSIsImxvZ2luIiwidHJhbnNmZXIiXSwiaXNzIjoiaHR0cHM6Ly93d3cub3BlbmJhbmtpbmcub3Iua3IiLCJleHAiOjE2MDMzNDQ1OTUsImp0aSI6ImE5NDI5MTYzLTNiMjUtNDQ4OC1hZDFjLTgzNDk4ZTc0MDE1MSJ9.xqK-dtJDJ08B9XQOaeRsux4euPLx7vyy9H36XMprAok
+1100760522
